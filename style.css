@@ -1,0 +1,42 @@
+:root {
+  --google: Google Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+  font-family: var(--google);
+  font-size: 3.4vw;
+}
+h2 {
+  font-family: var(--google);
+  font-size: 1.5vw;
+}
+
+input {
+  font-family: var(--google);
+  border: 2px solid black;
+  width: 8vw;
+  height: 5vh;
+  font-size: 1.5vw;
+}
+
+input:focus {
+  outline: none;
+}
+
+#result {
+  width: 12vw;
+}
+
+button {
+  font-family: var(--google);
+  border: 2px solid black;
+  width: 8.5vw;
+  height: 6vh;
+  font-size: 3.5vh;
+  background-color: white;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}

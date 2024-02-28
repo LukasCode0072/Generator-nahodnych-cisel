@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generátor náhodných čísel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicons.svg" type="image/x-icon">
+  </head>
+  <body>
+    <h1>Generátor náhodných čísel</h1>
+    <h2>Zde zadej minimální číslo které checě aby se ti vygenerovalo</h2>
+    <input type="number" id="min" value="0"/>
+    <h2>
+      Zde zadej maximální číslo které chceš aby se ti vygenerovalo a až budeš
+      mít hotovo klikni na tlačítko Generovat
+    </h2>
+    <input type="number" id="max" value="10" />
+    <button id="generate" onclick="Generate()">Generovat</button>
+    <h2>Zde se ti zobrazí vygenerované číslo</h2>
+    <h1 type="text" readonly id="result"/></h1>
+  </body>
+</html>
